@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import img from './IMAGE (7).png';
 import './tabsection.css'
 
 const Tabsection = () => {
+
+  const [tab, setTab] = useState(1)
+
   return (
      <section className="tabSection">
        <div className="container">
@@ -12,17 +15,17 @@ const Tabsection = () => {
          <p className="tabsection__text">
            This is some text inside of a div block.
          </p>
-         <ul className="some__tabs">
-           <li className="some__tabs-item">
+         <div className="some__tabs">
+           <button onClick={()=> setTab(1)} className={`some__tabs-item ${tab === 1 && 'some__tabs-item-active'}`}>
              Tab Button 1
-           </li>
-           <li className="some__tabs-item">
+           </button>
+           <button onClick={()=> setTab(2)}  className={`some__tabs-item ${tab === 2 && 'some__tabs-item-active'}`}>
              Tab Button 2
-           </li>
-           <li className="some__tabs-item">
+           </button>
+           <button onClick={()=> setTab(3)}  className={`some__tabs-item ${tab === 3 && 'some__tabs-item-active'}`}>
              Tab Button 3
-           </li>
-         </ul>
+           </button>
+         </div>
          <div className="tabsection__content">
            <img src={img} alt="Image of tabsection" className="tabsection__img"/>
          </div>
@@ -34,6 +37,7 @@ const Tabsection = () => {
            Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
            Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
          </p>
+
        </div>
      </section>
   );

@@ -33,7 +33,7 @@
 }
 
 .some__tabs-item{
-    background: #2E80B6;
+    color: #FFFFFF;
     border-radius: 4px;
     font-weight: 400;
     font-size: 16px;
@@ -41,8 +41,12 @@
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color:white;
     padding: 1px 30px;
+
+}
+
+.some__tabs-item-active{
+    background-color: #69B9FF;
 }
 
 .some-item-title{
