@@ -1,0 +1,51 @@
+.firstScreen{
+    padding: 184px 200px;
+    background:url('./bg.png') center/cover no-repeat;
+}
+
+.firstScreen__title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 107px;
+}
+
+.firstScreen__btns{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.firstScreen__btn_sign{
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 10px 31px 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+   text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #69B9FF;
+}
+
+.firstScreen__btn{
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 10px 31px 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: transparent;
+}

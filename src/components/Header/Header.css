@@ -1,0 +1,32 @@
+.header{
+    padding: 40px 0;
+}
+.header__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+      letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #69B9FF;
+}
+
+.header__item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+      color: #676770;
+}
+
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list{
+    display: flex;
+    column-gap: 40px;
+    list-style-type: none;
+}
