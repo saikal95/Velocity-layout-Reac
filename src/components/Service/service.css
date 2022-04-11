@@ -27,7 +27,6 @@
 
 .service__row{
     display: flex;
-    flex-wrap: wrap;
     column-gap: 50px;
 }
 
@@ -66,6 +65,38 @@
     color:#FFFFFF;
     cursor:pointer;
 }
+
+
+@media (max-width: 670px) {
+    .service{
+        padding: 40px 0 45px;
+        background-color: #192024;
+    }
+    .service__row{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+
+    .service__card{
+        width: calc(100% - 50px);
+        text-align:center
+    }
+
+
+
+}
+
+@media (max-width: 370px) {
+    .header{
+        padding: 10px;
+    }
+    .header__title{
+        font-size: 10px;
+    }
+
+}
+
 
 
 

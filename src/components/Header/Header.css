@@ -30,3 +30,30 @@
     column-gap: 40px;
     list-style-type: none;
 }
+
+
+@media (max-width: 670px) {
+    .header{
+        padding: 20px;
+    }
+    .header__title{
+        font-size: 15px;
+    }
+    .header__nav{
+        display: block;
+    }
+
+
+
+}
+
+@media (max-width: 370px) {
+    .header{
+        padding: 10px;
+    }
+    .header__title{
+        font-size: 10px;
+    }
+
+}
+

@@ -46,3 +46,24 @@
     line-height: 25px;
     color: #6A859C;
 }
+
+@media (max-width: 670px) {
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 440px) {
+    .footer__top {
+        display: block;
+    }
+    .footer__link .footer__list-item {
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+}

@@ -54,3 +54,31 @@
     text-align: center;
     padding: 36px 16px 23px;
 }
+
+
+@media (max-width: 670px) {
+    .inside{
+        padding: 40px 40px;
+    }
+    .inside__title{
+        font-weight: 200;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .inside__row{
+        display: flex;
+        gap:10px;
+        flex-wrap: wrap;
+    }
+
+    .inside__card{
+        width: calc(100% - 20px);
+        border: 1px solid #DCEBF7;
+        border-radius: 5px;
+        text-align: center;
+        padding: 36px 16px 23px;
+    }
+
+}
+
